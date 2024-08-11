@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719608569767,
+  "lastUpdate": 1723375677498,
   "repoUrl": "https://github.com/alerque/StyLua",
   "entries": {
     "Rust Benchmark": [
@@ -10289,6 +10289,48 @@ window.BENCHMARK_DATA = {
             "name": "format nested_tables.lua",
             "value": 19946971,
             "range": "± 726080",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "huajingyun@loongson.cn",
+            "name": "huajingyun",
+            "username": "huajingyun01"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "69183979f878da71b9a07bcd249e0176a740f28e",
+          "message": "deps: bump libc from 0.2.148 to 0.2.155 (#862)",
+          "timestamp": "2024-07-14T12:21:27+02:00",
+          "tree_id": "e2e422f9af34d8e103752822f96a57ca6d9f36b1",
+          "url": "https://github.com/alerque/StyLua/commit/69183979f878da71b9a07bcd249e0176a740f28e"
+        },
+        "date": 1723375676844,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "format date.lua",
+            "value": 35066937,
+            "range": "± 230850",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "format docgen.lua",
+            "value": 252433725,
+            "range": "± 563463",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "format nested_tables.lua",
+            "value": 19748467,
+            "range": "± 786743",
             "unit": "ns/iter"
           }
         ]
